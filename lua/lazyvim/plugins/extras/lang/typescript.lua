@@ -26,12 +26,18 @@ return {
                 convertTabsToSpaces = vim.o.expandtab,
                 tabSize = vim.o.tabstop,
               },
+              preferences = {
+                importModuleSpecifier = "non-relative",
+              },
             },
             javascript = {
               format = {
                 indentSize = vim.o.shiftwidth,
                 convertTabsToSpaces = vim.o.expandtab,
                 tabSize = vim.o.tabstop,
+              },
+              preferences = {
+                importModuleSpecifier = "non-relative",
               },
             },
             completions = {
